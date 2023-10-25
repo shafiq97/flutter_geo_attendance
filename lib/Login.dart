@@ -95,14 +95,14 @@ class _LoginPageState extends State<LoginPage> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(height: MediaQuery.of(context).size.height * 0.07),
-                  // ElevatedButton(
-                  //     onPressed: () {
-                  //       Navigator.pushReplacement(
-                  //           context,
-                  //           MaterialPageRoute(
-                  //               builder: (context) => const AttendanceCheck()));
-                  //     },
-                  //     child: const Text("Admin")),
+                  ElevatedButton(
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const AttendanceCheck()));
+                      },
+                      child: const Text("Admin")),
                   SizedBox(height: MediaQuery.of(context).size.height * 0.10),
                   const Text("Log in",
                       style: TextStyle(
